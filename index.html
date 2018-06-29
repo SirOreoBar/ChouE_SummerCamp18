@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>
+		PointlessWebsite.Com
+		</title>
+		<style>
+			body {
+				background-color: yellow;
+				color: #FFDB00;
+			}
+			.clear-class {
+				clear: both;
+			}
+			.first-class {
+				height: 400px;
+				background-color: red;
+			}
+			.first-class p {
+				color: orange;
+			}
+			.first-box {
+				height: 200px;
+				width: 200px;
+				background-color:blue;
+				margin:0 auto;
+			}
+			.first-box:hover {
+				background-color: yellow;
+			}
+			.second-class {
+				height: 500px;
+				background-color:lime;
+			}
+			.second-class p {
+				color: green;
+			}
+			.third-class {
+				height: 730px;
+				background-color:lime;
+			}
+			.third-class p {
+				color:pink;
+			}
+			.d-none {
+				display: none;
+			}
+			nav ul li {
+				display:inline-block;
+				padding: 15px;
+			}
+
+			nav a img {
+				float: left;
+			}
+			</style>
+
+			<script>
+			function myFunction() {
+				var box = document.querySelector('.first-box');
+				box.classList.remove('d-none');
+
+				var button = document.querySelector('#first-button');
+				button.classList.add('d-none');
+			}
+
+			function evolution() {
+					var image = document.querySelector('.third-class img');
+					image.src = "https://img00.deviantart.net/1c86/i/2016/304/b/7/decidueye_by_shinyscyther-damuka3.png";
+				}
+			function deevolve() {
+				var image = document.querySelector('.third-class img');
+				image.src = "https://img00.deviantart.net/519e/i/2017/010/d/3/rowlet_by_shinyhunterf-da23ldx.png";
+				}
+			</script>
+	</head>
+	<header>
+		<nav>
+			<a href="https://placeholder.com"><img src="https://images.rbxcdn.com/d66ae37d46e00a1ecacfe9531986690a.jpg">
+			</a>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Blog</a></li>
+				<li><a href="#">Contact Us</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<body>
+	<section class="clear-class">
+		<h1>Pointless Website</h1>
+		<p>Bad Vision 1</p>
+		</section>
+
+	<section class="first-class">
+		<p style="text-align:center;"
+			yellow;">Bad Vision 2</p>
+
+			<div class="first-box d-none"></div>
+
+			<button id="first-button" onclick="myFunction()">Click me</button>
+	</section>
+	<section class="second-class">
+		<p style="text-align:center;"></p>
+		<iframe src="game/index.html"></iframe>
+	</section>
+	<section class="third-class">
+		<p style="text-align:center;"
+			yellow;">Bad Vision 4</p>
+			<img class="irc_mi" src="https://img00.deviantart.net/519e/i/2017/010/d/3/rowlet_by_shinyhunterf-da23ldx.png" alt="Image result for rowlet clear background" onload="typeof google==='object'&amp;&amp;google.aft&amp;&amp;google.aft(this)" width="437" height="444" style="margin-top: 9px;">
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/n8X9_MgEdCg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+			<button id="second-button" onclick="evolution()">EVOLVE!!!</button>
+			<button id="third-button" onclick="deevolve()">DEVOLUTION!!</button>
+	</section>
+
+	<footer>
+		<nav>
+		<a href="https://placeholder.com"<img src = "https://via.placeholder.com/50x150"></a></li>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Blog</a></li>
+				<li><a href="#">Contact Us</a></li>
+			</ul>
+		</nav>
+	</footer>
+
+	</body>
+</html> 
